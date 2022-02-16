@@ -245,8 +245,8 @@
 //
 #if TEMP_SENSOR_BOARD
   #define THERMAL_PROTECTION_BOARD   // Halt the printer if the board sensor leaves the temp range below.
-  #define BOARD_MINTEMP           8  // (°C)
-  #define BOARD_MAXTEMP          70  // (°C)
+  #define BOARD_MINTEMP           5  // (°C)
+  #define BOARD_MAXTEMP          75  // (°C)
   #ifndef TEMP_BOARD_PIN
     //#define TEMP_BOARD_PIN -1      // Board temp sensor pin, if not set in pins file.
   #endif
@@ -2975,9 +2975,6 @@
   //#define CHOPPER_TIMING_Z2 CHOPPER_TIMING_Z
   //#define CHOPPER_TIMING_Z3 CHOPPER_TIMING_Z
   //#define CHOPPER_TIMING_Z4 CHOPPER_TIMING_Z
-  //#define CHOPPER_TIMING_I  CHOPPER_TIMING
-  //#define CHOPPER_TIMING_J  CHOPPER_TIMING
-  //#define CHOPPER_TIMING_K  CHOPPER_TIMING
   //#define CHOPPER_TIMING_E  CHOPPER_TIMING        // For Extruders (override below)
   //#define CHOPPER_TIMING_E1 CHOPPER_TIMING_E
   //#define CHOPPER_TIMING_E2 CHOPPER_TIMING_E
